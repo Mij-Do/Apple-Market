@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <title>Apple Market</title>
+</head>
+<body>
+    <!-- start header -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <!-- logo -->
+                <div class="logo">
+                    <img src="./Images/Logo.png" alt="Apple Logo">
+                </div>
+                <!-- links -->
+                <div class="links">
+                    <ul>
+                        <li><a class="aColor" href="#">Home</a></li>
+                        <li><a class="aColor" href="#">News</a></li>
+                        <li><a class="aColor" href="#">Products</a></li>
+                        <li><a class="aColor" href="#">Colors</a></li>
+                        <li><a class="aColor" href="#">Prices</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- end header -->
+    <!-- start main -->
+    <main>
+        <div class="container">
+            <!-- content -->
+            <div class="content">
+                <div>
+                    <h3>Iphone 16 Pro Max</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, sed!</p>
+                </div>
+                <!-- images -->
+                <div class="img-show">
+                    <img id="showImg" src="./Images/Iphone natural/natural.png" alt="Apple">
+                </div>
+            </div>
+            <!-- choose div -->
+            <div class="select-Iph">
+                <img onclick="setColor(this.id) , srcCode(this.src) , headerColor(this.alt) , textColor(this.title)" title="black" src="./Images/Iphone white/iphone white db.png" alt="#eee" id="#f3f2f2">
+                <img onclick="setColor(this.id) , srcCode(this.src) , headerColor(this.alt) , textColor(this.title)" title="white" src="./Images/Iphone balck/black.png" alt="#727272" id="#333">
+                <img onclick="setColor(this.id) , srcCode(this.src) , headerColor(this.alt) , textColor(this.title)" title="white" src="./Images/Iphone desert/desert.png" alt="#e0d3c9" id="#d4c2b4">
+                <img onclick="setColor(this.id) , srcCode(this.src) , headerColor(this.alt) , textColor(this.title)" title="black" src="./Images/Iphone natural/natural.png" alt="#d6d6d6" id="#b3b0a6">
+            </div>
+        </div>
+    </main>
+    <!-- end main -->
+    <script src="./JS/main.js"></script>
+</body>
+</html>
