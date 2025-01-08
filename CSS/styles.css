@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --main-width: 80%;
+}
 body {
     height: 100vh;
     transition: 0.5s;
@@ -11,11 +15,10 @@ body {
 header {
     width: 100%;
     padding: 3px;
-    /* background-color: #f3f2f2; */
     transition: 0.5s;
 }
 header .container {
-    min-width: 80%;
+    min-width: var(--main-width);
 }
 
 header .container nav {
@@ -40,7 +43,6 @@ header .container .links ul li {
 
 header .container .links ul li a {
     text-decoration: none;
-    color: black;
 }
 header .container .links ul li a:hover {
     color: #3d3d3d;
@@ -60,7 +62,7 @@ main {
     width: 100%;
 }
 main .container {
-    min-width: 80%;
+    min-width: var(--main-width);
 }
 main .container .content {
     width: 100%;
@@ -74,6 +76,7 @@ main .container .img-show img {
 }
 main .container .select-Iph {
     text-align: center;
+    padding: 10px;
 }
 main .container .select-Iph img {
     width: 100px;
@@ -88,3 +91,50 @@ main .container .select-Iph img {
         text-align: center;
     }
 }
+
+/* start products section */
+main .products-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+main .products-section h1 {
+    font-size: 10vh;
+    font-weight: bold;
+    text-align: center;
+}
+main .products-section .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+}
+main .products-section .row .cards {
+    text-align: center;
+}
+main .products-section .row .cards .img-card img {
+    max-width: 100%;
+}
+main .products-section .row .cards .card-content button {
+    max-width: 60%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+/* end products section */
+/* end main */
+
+/* start footer */
+
+.footer .container {
+    min-width: var(--main-width);
+    text-align: center;
+}
+.footer .container .footerImg {
+    width: 100%;
+}
+.footer .container .footerImg img {
+    width: 30%;
+}
+/* end footer */

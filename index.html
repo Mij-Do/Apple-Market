@@ -20,7 +20,7 @@
                     <ul>
                         <li><a class="aColor" href="#">Home</a></li>
                         <li><a class="aColor" href="#">News</a></li>
-                        <li><a class="aColor" href="#">Products</a></li>
+                        <li><a class="aColor" href="#products">Products</a></li>
                         <li><a class="aColor" href="#">Colors</a></li>
                         <li><a class="aColor" href="#">Prices</a></li>
                     </ul>
@@ -32,27 +32,243 @@
     <!-- start main -->
     <main>
         <div class="container">
-            <!-- content -->
-            <div class="content">
-                <div>
-                    <h3>Iphone 16 Pro Max</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, sed!</p>
+            <!-- start select section -->
+            <section class="select">
+                <!-- content -->
+                <div class="content">
+                    <div>
+                        <h3>Iphone 16 Pro Max</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, sed!</p>
+                    </div>
+                    <!-- images -->
+                    <div class="img-show">
+                        <img id="showImg" src="./Images/Iphone natural/natural.png" alt="Apple">
+                    </div>
                 </div>
-                <!-- images -->
-                <div class="img-show">
-                    <img id="showImg" src="./Images/Iphone natural/natural.png" alt="Apple">
+                <!-- choose div -->
+                <div class="select-Iph" id="select-Iph">
+                    <img onclick="setColor(this.id) , srcCode(this.src) , headerColor(this.alt) , textColor(this.title)" title="black" src="./Images/Iphone white/iphone white db.png" alt="#e2e2e2" id="#f3f2f2">
+                    <img onclick="setColor(this.id) , srcCode(this.src) , headerColor(this.alt) , textColor(this.title)" title="white" src="./Images/Iphone balck/black.png" alt="#727272" id="#333">
+                    <img onclick="setColor(this.id) , srcCode(this.src) , headerColor(this.alt) , textColor(this.title)" title="black" src="./Images/Iphone desert/desert.png" alt="#e0d3c9" id="#d4c2b4">
+                    <img onclick="setColor(this.id) , srcCode(this.src) , headerColor(this.alt) , textColor(this.title)" title="black" src="./Images/Iphone natural/natural.png" alt="#d6d6d6" id="#b3b0a6">
                 </div>
-            </div>
-            <!-- choose div -->
-            <div class="select-Iph">
-                <img onclick="setColor(this.id) , srcCode(this.src) , headerColor(this.alt) , textColor(this.title)" title="black" src="./Images/Iphone white/iphone white db.png" alt="#eee" id="#f3f2f2">
-                <img onclick="setColor(this.id) , srcCode(this.src) , headerColor(this.alt) , textColor(this.title)" title="white" src="./Images/Iphone balck/black.png" alt="#727272" id="#333">
-                <img onclick="setColor(this.id) , srcCode(this.src) , headerColor(this.alt) , textColor(this.title)" title="white" src="./Images/Iphone desert/desert.png" alt="#e0d3c9" id="#d4c2b4">
-                <img onclick="setColor(this.id) , srcCode(this.src) , headerColor(this.alt) , textColor(this.title)" title="black" src="./Images/Iphone natural/natural.png" alt="#d6d6d6" id="#b3b0a6">
-            </div>
+            </section>
+            <!-- end select section -->
+            <hr>
+            <!-- start products section -->
+            <section id="products" class="products-section">
+                <h1>Products</h1>
+                <div class="row">
+                    <div class="cards">
+                        <div class="img-card">
+                            <img src="./Images/Iphone white/iphone white db.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h3>
+                                Iphone16 Pro max
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <button type="button" id="btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="img-card">
+                            <img src="./Images/Iphone white/iphone white db.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h3>
+                                Iphone16 Pro max
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <button type="button" id="btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="img-card">
+                            <img src="./Images/Iphone white/iphone white db.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h3>
+                                Iphone16 Pro max
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <button type="button" id="btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="img-card">
+                            <img src="./Images/Iphone white/iphone white db.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h3>
+                                Iphone16 Pro max
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <button type="button" id="btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="img-card">
+                            <img src="./Images/Iphone balck/black.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h3>
+                                Iphone16 Pro max
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <button type="button" id="btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="img-card">
+                            <img src="./Images/Iphone balck/black.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h3>
+                                Iphone16 Pro max
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <button type="button" id="btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="img-card">
+                            <img src="./Images/Iphone balck/black.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h3>
+                                Iphone16 Pro max
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <button type="button" id="btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="img-card">
+                            <img src="./Images/Iphone balck/black.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h3>
+                                Iphone16 Pro max
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <button type="button" id="btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="img-card">
+                            <img src="./Images/Iphone desert/desert.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h3>
+                                Iphone16 Pro max
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <button type="button" id="btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="img-card">
+                            <img src="./Images/Iphone desert/desert.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h3>
+                                Iphone16 Pro max
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <button type="button" id="btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="img-card">
+                            <img src="./Images/Iphone desert/desert.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h3>
+                                Iphone16 Pro max
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <button type="button" id="btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="img-card">
+                            <img src="./Images/Iphone desert/desert.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h3>
+                                Iphone16 Pro max
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <button type="button" id="btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="img-card">
+                            <img src="./Images/Iphone natural/natural.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h3>
+                                Iphone16 Pro max
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <button type="button" id="btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="img-card">
+                            <img src="./Images/Iphone natural/natural.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h3>
+                                Iphone16 Pro max
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <button type="button" id="btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="img-card">
+                            <img src="./Images/Iphone natural/natural.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h3>
+                                Iphone16 Pro max
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <button type="button" id="btn">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="img-card">
+                            <img src="./Images/Iphone natural/natural.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h3>
+                                Iphone16 Pro max
+                            </h3>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <button type="button" id="btn">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end products section -->
         </div>
     </main>
     <!-- end main -->
+    <!-- start footer -->
+    <footer class="footer">
+        <div class="container" >
+            <div class="footerImg" id="footerImg">
+                <img src="./Images/Logo.png" alt="">
+            </div>
+            <div class="date-footer">
+                &copy;By Ahmed Date: <span id="dateNow"></span> Year.
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
     <script src="./JS/main.js"></script>
 </body>
 </html>
