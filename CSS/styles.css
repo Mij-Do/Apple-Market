@@ -109,6 +109,8 @@ main .products-section .row {
 }
 main .products-section .row .cards {
     text-align: center;
+    border: solid 1px #a7a7a7;
+    border-radius: 5px;
 }
 main .products-section .row .cards .img-card img {
     max-width: 100%;
